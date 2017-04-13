@@ -27,7 +27,7 @@
 #' @import htmlwidgets
 #' @seealso \code{\link{createCytoscapeJsNetwork}}
 #' @export
-rcytoscapejs2 <- function(nodeEntries, edgeEntries, layout="cose", width=NULL, 
+rcytoscapejs2 <- function(nodeEntries, edgeEntries, layout="spread", width=NULL, 
                          height=NULL, showPanzoom=TRUE, highlightConnectedNodes=TRUE, boxSelectionEnabled=TRUE) {
   # forward options using x
   x = list()
